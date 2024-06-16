@@ -1,0 +1,169 @@
+ html{
+ font-size: 16px;
+ }
+ body {
+  margin: 0 auto;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background-image: url("img2/logo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  }
+ 
+  
+ h1 , h2 ,h3 , h4, h5, h6{
+   font-family: 'Inter', sans-serif;
+   font-weight: 600;
+   text-align: center;
+  }
+
+  h1{ font-size: 2.5rem;}
+  h2{ font-size: 2rem;}
+  h3{ font-size: 1.75rem;}
+  h4{ font-size: 1.5rem; }
+  h5{ font-size: 1.25rem;}
+  h6{ font-size: 1rem;}
+  
+
+ a{
+  text-decoration: none;
+  color: blueviolet ;
+ }   
+ .head-pos{
+   position: relative;
+   top: 40px;
+   left: -20px;
+  }
+ #jobs-table{
+  width: 100%;
+  border: 1px solid gray;
+  border-collapse: collapse;
+  padding: center;
+  }
+
+ .jobs-header-row th{
+ color: black;
+ border:1px solid gray; 
+ padding: 8px;
+ background-color: aliceblue;
+ text-align: center;
+ }
+ 
+ .jobs-data-row td{
+  padding: 8px;
+  border: 1px solid gray 
+ }
+ #jobs-table tr:nth-child(odd){
+  color: black;
+ background-color: ghostwhite;  
+ }
+   
+
+
+ .font-size
+        {
+         font-size:60px;
+         text-align: center;
+         }
+
+       .h2{
+         text-align: center;
+         color:blue    
+       }
+       .navbar{
+         padding: 8px;
+         margin: 0px;
+       }
+       #logo {
+         height: 43px;
+       }
+
+       .banner {
+        width: 100px;
+         object-fit: cover;
+       }
+       #about{
+         display: flex;
+         margin:0 auto;
+         max-width: 800px;
+         padding: 8px;
+
+       }
+       #description{
+        width: 100%;
+        padding-right: 8px;
+        font-size: 1.2rem;
+       }
+       #team{
+        border-radius: 5px;
+        width: 100%;
+      
+        }
+      #jobs{
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 10px;
+      }
+      
+      
+      #application{
+       max-width: 800px;
+       margin: 0 auto;
+       padding:0 8px; 
+      }
+      
+      .form-group{
+        margin: 16px;
+      } 
+      #application-form label{
+         font-weight: 600;
+      }
+
+      #application-form input, select, textarea{
+       padding: 8px;
+       font-size: 1.25rem;
+       margin: 4px;
+       border-radius: 5px;
+       border: 1px solid gray;
+      }
+
+      .form-group textarea {
+        width: 80%;
+        font-family: 'Roboto', sans-serif ;
+      }
+       
+      #Newsletter label{
+        font-weight: 600;
+      }
+
+      #Newsletter input{
+      padding: 4px;
+      font-size: 1.25rem;
+      margin: 4px;
+      }
+      
+      #footer{
+      background-color: ghostwhite;
+      margin: 0px;
+      padding: 8px;
+      text-align:center;
+      height: 65px;
+      }
+       
+      #footer-links{
+        list-style: none;
+      }
+
+      #footer-links li{
+        display: inline;
+        margin: 0 16px;
+
+      }
+      .copyright{
+        color: darkslateblue;
+        font-size: 0.700rem;
+      }
+
+       
